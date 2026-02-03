@@ -19,7 +19,7 @@ def on_click(button_text):
     else:
         entry.insert(tk.END,button_text)
 root = tk.Tk()
-root.title("Dolly's Calc")
+root.title("Python's Calc")
 entry = tk.Entry(root, font=("Arial",24),  borderwidth=10, relief="flat", justify='right')
 entry.grid(row=0, column=0, columnspan=4, padx=10, pady=20)
 
