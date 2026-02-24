@@ -1,5 +1,0 @@
-streamlit
-numpy
-pygame
-PyOpenGL
-PyOpen_accelerate
