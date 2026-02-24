@@ -12,6 +12,7 @@ NUM_POINTS = 120     # Density of the ring
 def draw_torus(rotation_angle):
     glPointSize(2)  # Make particles look like stars/glow points
     glBegin(GL_POINTS)
+
     
     # Generate points using parametric equations
     for theta in np.linspace(0, 2 * np.pi, NUM_POINTS):
