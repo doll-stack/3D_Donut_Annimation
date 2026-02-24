@@ -59,7 +59,7 @@ def main():
         pygame.display.flip()
         
         angle += 1 # Speed of rotation
-        clock.tick(60) # 60 Frames Per Second
+        clock.tick()
 
 if __name__ == "__main__":
     main()
